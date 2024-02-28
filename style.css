@@ -58,7 +58,7 @@ picture{
 
 #focaccia{
     border-radius: 10px;
-    
+    width:100%;
 }
 
 .ingredients{
@@ -122,4 +122,26 @@ footer > h5{
     color: rgb(255, 80, 30);
 }
 
+@media (min-width: 319px) and (max-width: 480px) {
+    main{
+        width: 90%;
+    } 
 
+    #focaccia {
+      width: 90vw;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 1200px) {
+    main{
+        width: 90%;
+    } 
+
+    #focaccia {
+        width: 80vw;
+      }
+  }
+
+  @media (min-width: 1601px) {
+    /* dopo la lezione aggiungere funzionalità */
+  }
