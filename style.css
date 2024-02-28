@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{font-family: "Libre Baskerville", serif;}
+
+
+
+ol li{
+    font-weight: 700;
+}
+
+main{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-img{
+    width: 10vw;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+}
+
+#description{
+    text-align: center;
+    font-size: 0.8em;
+}
+
+h1{
+    font-weight: 700;
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+    opacity: 50%;
+    font-size: 0.8em;
+}
+
+picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#focaccia{
+    border-radius: 10px;
+    
+}
+
+.ingredients{
+    text-align: left;
+}
+
+.featured > h3{
+    margin-bottom: 0;
+    font-size: 0.9em;
+}
+
+.featured > h4{
+    margin-top: 0;
+    font-size: 0.9em;
+}
+
+.featured{
+    padding-left: 1em;
+    border-left: 2px solid orange;
+}
+
+.ingredients>h2, h3{
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+}
+
+hr{
+    opacity: 50%;
+}
+
+.method{
+    margin-top:5em; 
+}
+
+ol > li{
+    margin-bottom: 2em;
+}
+
+ul>li{
+    margin-top: 1em;
+}
+
+footer{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+footer > h5{
+    padding-left: 5rem;
+}
+
+.description-panel{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(253, 255, 196);
+    border-top: 2px solid yellow
+}
+
+.featured > h3{
+    color: rgb(255, 80, 30);
+}
+
+
